@@ -1,0 +1,44 @@
+
+:root {
+  --primary: #4f46e5;
+  --primary-light: #eef2ff;
+
+  --background: #f8fafc;
+  --surface: #ffffff;
+
+  --text: #1e293b;
+  --muted: #64748b;
+  --border: #e2e8f0;
+
+  --sidebar-width: 260px;
+  --sidebar-collapsed-width: 76px;
+
+  --radius: 2px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, "Segoe UI", sans-serif;
+  background: var(--background);
+  color: var(--text);
+  font-size: 14px;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
